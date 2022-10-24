@@ -48,7 +48,7 @@ export default new Vuex.Store({
         commit("SET_PHASE_ITEMS", data.data);
         // Below use parent foreign key to loookup records from the API request response.
         this.state.modelSelOption = this.state.dsPhaseItems.find(
-          (item) => item.id === 3
+          (item) => item.id === 4
         );
       } catch (error) {
         alert(error);
